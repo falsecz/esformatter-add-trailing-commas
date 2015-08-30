@@ -12,7 +12,7 @@ function findLastElement(token) {
     return null;
   }
 
-  if (tk.isBr(token) || tk.isWs(token) || tk.isIndent(token)) {
+  if (tk.isBr(token) || tk.isWs(token) || tk.isIndent(token) || tk.isComment(token)) {
     return findLastElement(token.prev);
   }
 

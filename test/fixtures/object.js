@@ -15,3 +15,7 @@ var nestedOneLine = {a: {ab: ''}};
 var nestedMixed = {
   a: {ab: ''},
 };
+
+var commented = {
+  a: '' // this needs a comma
+};

@@ -23,3 +23,7 @@ var nestedMixed = {
     ab: '',
   },
 };
+
+var commented = {
+  a: '', // this needs a comma
+};
