@@ -1,7 +1,7 @@
 {
-  "name": "esformatter-remove-trailing-commas",
-  "version": "1.0.1",
-  "description": "Remove trailing commas",
+  "name": "esformatter-add-trailing-commas",
+  "version": "1.0.0",
+  "description": "Add trailing commas",
   "main": "index.js",
   "files": [
     "index.js"
@@ -14,14 +14,17 @@
     "commas"
   ],
   "license": "MIT",
-  "author": "Antoine Lehurt <code@kewah.com> (http://kewah.com/)",
-  "homepage": "https://github.com/kewah/esformatter-remove-trailing-commas",
+  "contributors": [
+    "Antoine Lehurt <code@kewah.com> (http://kewah.com/)"
+  ],
+  "author": "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
+  "homepage": "https://github.com/deoxxa/esformatter-add-trailing-commas",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kewah/esformatter-remove-trailing-commas"
+    "url": "https://github.com/deoxxa/esformatter-add-trailing-commas"
   },
   "bugs": {
-    "url": "https://github.com/kewah/esformatter-remove-trailing-commas/issues"
+    "url": "https://github.com/deoxxa/esformatter-add-trailing-commas/issues"
   },
   "scripts": {
     "test": "mocha --reporter spec"
@@ -31,6 +34,7 @@
     "mocha": "^2.2.1"
   },
   "dependencies": {
+    "rocambole": "^0.7.0",
     "rocambole-token": "^1.2.1"
   }
 }
