@@ -22,6 +22,13 @@ describe('esformatter-add-trailing-commas', function() {
     assert.equal(output, readfile('expected/array.js'));
     done();
   });
+
+  it('should add trailing commas on destructuring object asssigment', function(done) {
+    var output = esformatter.format(readfile('fixtures/destructuring-object.js'));
+    assert.equal(output, readfile('expected/destructuring-object.js'));
+    done();
+  });
+
 });
 
 function readfile(name) {

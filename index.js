@@ -36,7 +36,7 @@ function hasPrecedingNewline(token) {
 }
 
 function addComma(expToken) {
-  if (!expToken || !expToken.type.match(/ArrayExpression|ObjectExpression/)) {
+  if (!expToken || !expToken.type.match(/ArrayExpression|ObjectExpression|ObjectPattern/)) {
     return;
   }
 
